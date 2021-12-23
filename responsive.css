@@ -1,0 +1,916 @@
+@media (max-width: 1460px) {
+    .down-cloumn {
+        width: 60%;
+    }
+    .slider-content {
+        padding: 0px 50px;
+    }
+    .content-box {
+        padding: 40px 10%;
+    }
+}
+
+@media (min-width:1460px) {
+    .card-text-content {
+        position: absolute;
+    }
+    .services-card:hover .card-text-content {
+        background: #38a8e0;
+        height: 35%;
+    }
+    .services-card:hover .card-text-content h3 {
+        padding-bottom: 3rem;
+    }
+    .services-card:hover .back {
+        background-position: 0px -200px;
+    }
+}
+
+@media (max-width: 1420px) {
+    .main {
+        width: 100%;
+        margin: 0px;
+    }
+    .caption h2 {
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+        margin-right: 0px;
+        padding: 0.8rem 0px 2.7rem;
+    }
+    .element-slider1 {
+        height: 100%;
+    }
+    .element-slider2 {
+        height: 100%;
+    }
+    .popup-image {
+        top: 80%;
+        left: 20%;
+    }
+    .element3-content {
+        padding: 15% 12.5%;
+        flex-direction: column;
+    }
+    .news-button a {
+        margin-top: 0.5em;
+    }
+    .news-heading h2 {
+        padding-bottom: 0px;
+    }
+    .news-heading h2 {
+        font-size: 27px;
+    }
+    .left-slide-content {
+        width: 100%;
+    }
+    .right-slide-menu {
+        width: 100%;
+    }
+    span.readmore {
+        font-size: 14px;
+    }
+    .text h3 {
+        font-size: 23px;
+    }
+    span.date {
+        font-size: 12px;
+    }
+    .popup-image {
+        display: none;
+    }
+    section.element2 {
+        padding-bottom: 200px;
+    }
+    .footer-item {
+        flex-wrap: wrap;
+    }
+    .footer-cloumn {
+        flex-basis: 50%;
+    }
+    .footer-cloumn-link {
+        flex-basis: 50%;
+    }
+    .footer-cloumn-job {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .secondary-nav {
+        display: none;
+    }
+    ul.nav-menu {
+        display: none;
+    }
+    .card-text-content h3 {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .card-text-content span {
+        margin-bottom: 10px;
+    }
+    .services-card {
+        min-height: 39vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    span.card-btn {
+        font-size: 0.8rem;
+        width: 60px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .nav-items {
+        margin-left: 0px;
+    }
+    .text-content {
+        padding: 13% 8% 30%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .down-cloumn {
+        width: 60%;
+    }
+    .slider-content {
+        padding: 0px 50px;
+    }
+    .slider-content h2 {
+        font-size: 1.98rem;
+    }
+    p.slide-p {
+        font-size: 1.2rem;
+        padding: 5px 0px 10px;
+    }
+    .topline {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1360px) {
+    #mobile-btn {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    .card-text-content {
+        position: absolute;
+        justify-content: flex-end;
+    }
+    .services-card:hover .card-text-content {
+        background: #38a8e0;
+        height: 35%;
+    }
+    .services-card:hover .card-text-content h3 {
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    ul.ref-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li.ref-item {
+        flex-basis: 50%;
+    }
+    .image-last {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .items {
+        padding: 2.5rem 0px;
+    }
+    .gard-services {
+        flex-direction: column;
+    }
+    .back {
+        background-position: center;
+    }
+    .services-card {
+        position: relative;
+    }
+    .media-element {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .down-cloumn p,
+    .case-button,
+    .top-cloumn {
+        display: none;
+    }
+    .down-cloumn {
+        width: 100%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    .heading {
+        padding: 0px 8% 3%;
+    }
+    .header-content {
+        padding: 0px 8% 5%;
+    }
+    .heading h2 {
+        font-size: 30px;
+    }
+    .heading-b h2 {
+        font-size: 30px;
+    }
+    .element-slider1 {
+        position: relative;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 35px;
+    }
+    .slider-content {
+        padding: 50px 8% 0px;
+    }
+    .left-content {
+        width: 100%;
+        position: relative;
+        padding-top: 270px;
+        padding-bottom: 50px;
+    }
+    .left-content2 {
+        width: 100%;
+        position: relative;
+        padding-top: 285px;
+        padding-bottom: 50px;
+    }
+    .right-content {
+        width: 100%;
+        height: 35%;
+        top: 0px;
+        overflow: hidden;
+        position: absolute;
+        align-items: center;
+    }
+    .element-slider-slides {
+        height: auto;
+    }
+    .slider-content h2 {
+        font-size: 1.98rem;
+    }
+    p.slide-p {
+        font-size: 1.2rem;
+        padding: 5px 0px 10px;
+    }
+    .topline {
+        font-size: 1rem;
+    }
+    .element-slider2 {
+        position: relative;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 35px;
+    }
+    .slider-control-btn {
+        bottom: 5em;
+        width: 80%;
+        padding: 0px 10%;
+    }
+    .slide-control-btn2 {
+        display: block;
+    }
+    .slide-text {
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+    .imageslide {
+        display: none;
+    }
+    .contentslide {
+        width: 100%;
+        padding-right: 8%;
+    }
+    .element2 {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .job-button {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+    }
+    .job-button a {
+        width: 70%;
+        margin: 0px 0px 25px;
+        text-align: center;
+    }
+    a#active-btn {
+        margin-left: 0px;
+    }
+    section.element3 {
+        padding-bottom: 100px;
+    }
+    .content-box {
+        padding: 40px 7%;
+    }
+    .content-box a {
+        width: 180px;
+        padding: 1em;
+        text-align: center;
+    }
+    .content-box h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 770px) {
+    span.readmore {
+        display: none;
+    }
+    li.news-menu a {
+        position: relative;
+    }
+    span.date {
+        position: absolute;
+        right: 0px;
+    }
+    .reference_content {
+        padding: 0px 8%;
+    }
+    li.ref-item {
+        flex-basis: 100%;
+        padding: 3rem 0px;
+    }
+    span.heading-line {
+        font-size: 16px;
+    }
+    .reference-heading {
+        padding-bottom: 15px;
+    }
+    .reference-heading p {
+        font-size: 22px;
+    }
+    .footer-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-cloumn {
+        flex-basis: 100%;
+        padding-bottom: 25px;
+    }
+    .footer-cloumn-link {
+        flex-basis: 100%;
+        padding-top: 25px;
+    }
+    .footer-cloumn-job {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .footer {
+        padding: 5rem 0px;
+    }
+    .image-last {
+        flex-direction: column;
+    }
+    .items {
+        padding: 10px 0px;
+    }
+    .last-content {
+        padding: 40px 0px;
+    }
+}
+
+@media (max-width: 590px) {
+    .content-box {
+        flex-direction: column;
+        padding: 40px 8%;
+        align-items: center;
+        text-align: center;
+    }
+    .content-box h2 {
+        font-size: 23px;
+        padding-bottom: 7px;
+    }
+    .content-box a {
+        width: 200px;
+        padding: 1em;
+        text-align: center;
+    }
+    .contact-btn {
+        padding: 1.2em 1.5em !important;
+    }
+    .nav-items {
+        padding: 1.8rem 2rem;
+    }
+    .card-text-content h3 {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .card-text-content span {
+        margin-bottom: 10px;
+    }
+    .services-card {
+        min-height: 39vh;
+        display: flex;
+        align-items: center;
+    }
+    .caption {
+        padding: 0px 8%;
+    }
+    button.player-btn {
+        display: none;
+    }
+    section.fast-element {
+        padding-top: 5rem;
+    }
+    .media-element {
+        justify-content: center;
+    }
+    .media-container {
+        width: 85%;
+    }
+    .text-content {
+        padding: 13% 8% 30%;
+    }
+    .text-content p {
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+    strong {
+        font-weight: 500;
+    }
+    a.brand-logo span {
+        font-size: 28px;
+    }
+    a.brand-logo span i {
+        font-size: 15px;
+        padding: 6px 8px;
+    }
+    .caption h2 {
+        font-size: 2.2rem;
+        line-height: 2.3rem;
+        margin-right: 0px;
+        padding: 0.8rem 0px 2.7rem;
+    }
+    .caption span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1460px) {
+    .down-cloumn {
+        width: 60%;
+    }
+    .slider-content {
+        padding: 0px 50px;
+    }
+    .content-box {
+        padding: 40px 10%;
+    }
+}
+
+@media (max-width: 1360px) {
+    .main {
+        width: 100%;
+        margin: 0px;
+    }
+    .caption h2 {
+        font-size: 3.2rem;
+        line-height: 3.4rem;
+        margin-right: 0px;
+        padding: 0.8rem 0px 2.7rem;
+    }
+    .element-slider1 {
+        height: 100%;
+    }
+    .element-slider2 {
+        height: 100%;
+    }
+    .popup-image {
+        top: 80%;
+        left: 20%;
+    }
+    .element3-content {
+        padding: 15% 12.5%;
+        flex-direction: column;
+    }
+    .filter-bar ul {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .filter-bar li {
+        padding-left: 0;
+    }
+    .job-content {
+        padding: 15% 12.5%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .news-button a {
+        margin-top: 0.5em;
+    }
+    label {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .news-heading h2 {
+        padding-bottom: 0px;
+    }
+    .news-heading h2 {
+        font-size: 27px;
+    }
+    .left-slide-content {
+        width: 100%;
+    }
+    .right-slide-menu {
+        width: 100%;
+    }
+    span.readmore {
+        font-size: 14px;
+    }
+    .text h3 {
+        font-size: 23px;
+    }
+    span.date {
+        font-size: 12px;
+    }
+    .popup-image {
+        display: none;
+    }
+    section.element2 {
+        padding-bottom: 200px;
+    }
+    .footer-item {
+        flex-wrap: wrap;
+    }
+    .footer-cloumn {
+        flex-basis: 50%;
+    }
+    .footer-cloumn-link {
+        flex-basis: 50%;
+    }
+    .footer-cloumn-job {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .secondary-nav {
+        display: none;
+    }
+    ul.nav-menu {
+        display: none;
+    }
+    .card-text-content h3 {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .card-text-content span {
+        margin-bottom: 10px;
+    }
+    .services-card {
+        min-height: 39vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    span.card-btn {
+        font-size: 0.8rem;
+        width: 60px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .nav-items {
+        margin-left: 0px;
+    }
+    .text-content {
+        padding: 13% 8% 30%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .down-cloumn {
+        width: 60%;
+    }
+    .slider-content {
+        padding: 0px 50px;
+    }
+    .slider-content h2 {
+        font-size: 1.98rem;
+    }
+    p.slide-p {
+        font-size: 1.2rem;
+        padding: 5px 0px 10px;
+    }
+    .topline {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1360px) {
+    #mobile-btn {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    .card-text-content {
+        position: absolute;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 1024px) {
+    ul.ref-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li.ref-item {
+        flex-basis: 50%;
+    }
+    .image-last {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .items {
+        padding: 2.5rem 0px;
+    }
+    .gard-services {
+        flex-direction: column;
+    }
+    .back {
+        background-position: center;
+    }
+    .services-card {
+        position: relative;
+    }
+    .media-element {
+        justify-content: center;
+    }
+    .media-container {
+        width: 85%;
+    }
+    .player-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .down-cloumn p,
+    .case-button,
+    .top-cloumn {
+        display: none;
+    }
+    .down-cloumn {
+        width: 100%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    .heading {
+        padding: 0px 8% 3%;
+    }
+    .header-content {
+        padding: 0px 8% 5%;
+    }
+    .heading h2 {
+        font-size: 30px;
+    }
+    .heading-b h2 {
+        font-size: 30px;
+    }
+    .element-slider1 {
+        position: relative;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 35px;
+    }
+    .slider-content {
+        padding: 50px 8% 0px;
+    }
+    .left-content {
+        width: 100%;
+        position: relative;
+        padding-top: 270px;
+        padding-bottom: 50px;
+    }
+    .left-content2 {
+        width: 100%;
+        position: relative;
+        padding-top: 285px;
+        padding-bottom: 50px;
+    }
+    .right-content {
+        width: 100%;
+        height: 35%;
+        top: 0px;
+        overflow: hidden;
+        position: absolute;
+        align-items: center;
+    }
+    .element-slider-slides {
+        height: auto;
+    }
+    .slider-content h2 {
+        font-size: 1.98rem;
+    }
+    p.slide-p {
+        font-size: 1.2rem;
+        padding: 5px 0px 10px;
+    }
+    .topline {
+        font-size: 1rem;
+    }
+    .element-slider2 {
+        position: relative;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 35px;
+    }
+    .slider-control-btn {
+        bottom: 5em;
+        width: 80%;
+        padding: 0px 10%;
+    }
+    .slide-control-btn2 {
+        display: block;
+    }
+    .slide-text {
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+    .imageslide {
+        display: none;
+    }
+    .contentslide {
+        width: 100%;
+        padding-right: 8%;
+    }
+    .element2 {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    .job-button {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+    }
+    .job-button a {
+        width: 70%;
+        margin: 0px 0px 25px;
+        text-align: center;
+    }
+    a#active-btn {
+        margin-left: 0px;
+    }
+    section.element3 {
+        padding-bottom: 100px;
+    }
+    .content-box {
+        padding: 40px 7%;
+    }
+    .content-box a {
+        width: 180px;
+        padding: 1em;
+        text-align: center;
+    }
+    .content-box h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 770px) {
+    span.readmore {
+        display: none;
+    }
+    li.news-menu a {
+        position: relative;
+    }
+    span.date {
+        position: absolute;
+        right: 0px;
+    }
+    .reference_content {
+        padding: 0px 8%;
+    }
+    li.ref-item {
+        flex-basis: 100%;
+        padding: 3rem 0px;
+    }
+    span.heading-line {
+        font-size: 16px;
+    }
+    .reference-heading {
+        padding-bottom: 15px;
+    }
+    .reference-heading p {
+        font-size: 22px;
+    }
+    .footer-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-cloumn {
+        flex-basis: 100%;
+        padding-bottom: 25px;
+    }
+    .footer-cloumn-link {
+        flex-basis: 100%;
+        padding-top: 25px;
+    }
+    .footer-cloumn-job {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .footer {
+        padding: 5rem 0px;
+    }
+    .image-last {
+        flex-direction: column;
+    }
+    .items {
+        padding: 10px 0px;
+    }
+    .last-content {
+        padding: 40px 0px;
+    }
+}
+
+@media (max-width: 590px) {
+    .content-box {
+        flex-direction: column;
+        padding: 40px 8%;
+        align-items: center;
+        text-align: center;
+    }
+    .content-box h2 {
+        font-size: 23px;
+        padding-bottom: 7px;
+    }
+    .content-box a {
+        width: 200px;
+        padding: 1em;
+        text-align: center;
+    }
+    .contact-btn {
+        padding: 1.2em 1.5em !important;
+    }
+    .nav-items {
+        padding: 1.8rem 2rem;
+    }
+    .card-text-content h3 {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .card-text-content span {
+        margin-bottom: 10px;
+    }
+    .services-card {
+        min-height: 39vh;
+        display: flex;
+        align-items: center;
+    }
+    .caption {
+        padding: 0px 8%;
+    }
+    button.player-btn {
+        display: none;
+    }
+    section.fast-element {
+        padding-top: 5rem;
+    }
+    .media-element {
+        justify-content: center;
+    }
+    .media-container {
+        width: 85%;
+    }
+    .text-content {
+        padding: 13% 8% 30%;
+    }
+    .text-content p {
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+    strong {
+        font-weight: 500;
+    }
+    a.brand-logo span {
+        font-size: 28px;
+    }
+    a.brand-logo span i {
+        font-size: 15px;
+        padding: 6px 8px;
+    }
+    .caption h2 {
+        font-size: 2.2rem;
+        line-height: 2.3rem;
+        margin-right: 0px;
+        padding: 0.8rem 0px 2.7rem;
+    }
+    .caption span {
+        font-size: 1.2rem;
+    }
+    .news-button a {
+        width: 100%;
+    }
+    .job-heading h2 {
+        font-size: 2rem;
+    }
+}
