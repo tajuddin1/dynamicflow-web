@@ -895,6 +895,11 @@ li.servicepage:hover {
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
+    color: #000;
+}
+
+.caption a:hover {
+    background: rgb(200, 211, 0);
 }
 
 .text-content p {
