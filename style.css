@@ -897,6 +897,7 @@ li.servicepage:hover {
     font-weight: 600;
     font-size: 0.9rem;
     color: #3e3e3e;
+    transition: 0.4s ease;
 }
 
 .caption a:hover {
