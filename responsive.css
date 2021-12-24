@@ -208,6 +208,9 @@
     .player-btn {
         display: none;
     }
+    .left-side-menu {
+        display: none;
+    }
 }
 
 @media (max-width: 960px) {

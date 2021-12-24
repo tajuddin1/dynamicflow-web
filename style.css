@@ -24,8 +24,8 @@
 }
 
 .main {
-    width: calc(100% - 85px);
-    margin-left: 85px;
+    width: calc(100%);
+    /* margin-left: 85px; */
 }
 
 .image {
@@ -743,7 +743,7 @@ ul.nav-menu {
     align-items: center;
     justify-content: space-between;
     padding: 2.2rem 3.3rem;
-    margin-left: 85px;
+    /* margin-left: 85px; */
 }
 
 header.top-navigation-bar {
@@ -1207,4 +1207,20 @@ input[type=radio]+label:after {
     width: 16px;
     opacity: 0;
     transition: opacity .25s;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side-menu {
+    width: 85px;
+    background: #fff;
+}
+
+.right-side-menu {
+    display: flex;
+    position: relative;
+    width: fit-content;
 }
