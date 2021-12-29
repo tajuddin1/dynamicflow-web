@@ -1264,6 +1264,19 @@ li.btn-link a {
     transition: 0.4s ease;
 }
 
-li.btn-link a:first-child:active {
-    background: #fff;
+section.protfolio-home {
+    top: 120px;
+    position: relative;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b9cb71;
+    margin-bottom: 90px;
+}
+
+section.protfolio-home h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
