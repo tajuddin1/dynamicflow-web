@@ -1293,8 +1293,8 @@ section.protfolio-home h2 {
 #form input,
 textarea {
     display: block;
-    width: 94.3%;
-    height: 35px;
+    box-sizing: border-box;
+    width: 100%;
     max-width: 1120px;
     margin-bottom: 20px;
     padding: 10px;
@@ -1381,10 +1381,10 @@ section.carousel-slider {
 }
 
 .from-submit {
+    box-sizing: border-box;
     display: flex;
-    width: 96%;
+    width: 100%;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .alert {

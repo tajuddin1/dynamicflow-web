@@ -359,7 +359,8 @@
         flex-direction: column;
     }
     .alert {
-        width: 94%;
+        box-sizing: border-box;
+        width: 100%;
     }
     span.readmore {
         display: none;
