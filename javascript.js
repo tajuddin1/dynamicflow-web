@@ -76,6 +76,7 @@ function fromSubmit() {
         document.getElementById("inputAlert").innerHTML = "Please type Your name";
         document.getElementById("alertBox").style.display = "flex";
         document.getElementById("alertBox").style.backgroundColor = "red";
+        document.getElementById("alertBox").style.boxShadow= "inset 0px 0px 12px 13px #d70606c9";
         return false;
     } else {
         document.getElementById("alertBox").style.display = "none";
