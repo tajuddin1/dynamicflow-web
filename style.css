@@ -1349,6 +1349,13 @@ input#file {
     text-transform: uppercase;
     transition: 0.3s ease;
     border: none;
+    box-shadow: #8fbd17c7 0px 0px 12px 13px inset;
+    border: 1px solid #88b11d;
+}
+
+#from-btn:hover {
+    background: #a1cd2e;
+    box-shadow: none;
 }
 
 span#from-btn:hover {
@@ -1394,7 +1401,7 @@ section.carousel-slider {
     width: 50%;
     padding: 10px;
     background: #00c300;
-    /* background: red; */
+    border-radius: 5px;
 }
 
 .alert strong,
