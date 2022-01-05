@@ -176,6 +176,9 @@
 }
 
 @media (max-width: 1024px) {
+    section.carousel-slider {
+        width: 100vw;
+    }
     ul.ref-menu {
         display: flex;
         flex-wrap: wrap;
@@ -210,6 +213,11 @@
     }
     .left-side-menu {
         display: none;
+    }
+    .container {
+        width: 85%;
+        padding: 20px;
+        /* margin: 0; */
     }
 }
 
@@ -337,6 +345,22 @@
 }
 
 @media (max-width: 770px) {
+    div#succescontent {
+        padding: 0;
+    }
+    div#succescontent h1 {
+        font-size: 30px;
+    }
+    #from-btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .from-submit {
+        flex-direction: column;
+    }
+    .alert {
+        width: 94%;
+    }
     span.readmore {
         display: none;
     }
@@ -475,5 +499,12 @@
     }
     .job-heading h2 {
         font-size: 2rem;
+    }
+    span#from-btn {
+        width: 100%;
+    }
+    .para {
+        width: 100%;
+        margin: 0;
     }
 }

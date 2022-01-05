@@ -722,6 +722,7 @@ a.brand-logo span {
     font-weight: 900;
     display: flex;
     align-items: center;
+    color: #000;
 }
 
 a.brand-logo i {
@@ -789,7 +790,7 @@ li.servicepage a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0 0 0);
 }
 
 li.servicepage {
@@ -805,14 +806,14 @@ a.contact-us-btn {
     text-decoration: none;
     display: inline-block;
     padding: 1.025em 3.6em;
-    border: 1px solid rgb(200, 211, 0);
+    border: 1px solid #95c120;
     transition: all 0.5s ease 0s;
-    color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 a.contact-us-btn:hover {
-    background: rgb(200, 211, 0);
-    color: rgb(51, 51, 51);
+    background: #95c120;
+    color: #fff;
 }
 
 .search-btn {
@@ -865,7 +866,7 @@ section.home::before {
 }
 
 li.servicepage:hover {
-    border-bottom: 1px solid rgb(200, 211, 0);
+    border-bottom: 2px solid #95c120;
 }
 
 .caption {
@@ -1265,18 +1266,168 @@ li.btn-link a {
 }
 
 section.protfolio-home {
-    top: 120px;
-    position: relative;
+    /* position: relative; */
     height: 16rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #b9cb71;
-    margin-bottom: 90px;
+    background: #95c120;
+    margin-top: 120px;
 }
 
 section.protfolio-home h2 {
     text-align: center;
     padding: 0;
     margin: 0;
+}
+
+
+/* carrer Page */
+
+.container {
+    width: 1120px;
+    margin: auto;
+    padding: 20px;
+}
+
+#form input,
+textarea {
+    display: block;
+    width: 94.3%;
+    height: 35px;
+    max-width: 1120px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid #95c120;
+    outline-color: #95c120;
+    /* outline: 2px solid; */
+    color: #343434;
+    font-family: 'Open Sans';
+}
+
+#from1 textarea {
+    border: none;
+    height: auto;
+    outline-color: #95c120;
+    border-bottom: 1px solid #95c120;
+}
+
+#from1 label {
+    width: 100%;
+    display: block;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #75757e;
+    text-transform: capitalize;
+    line-height: 0;
+    letter-spacing: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+input#file {
+    border: none;
+    font-size: 20px;
+    /* padding: 10px 0; */
+}
+
+#from-btn {
+    display: inline-block;
+    font-size: 19px;
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    display: flex;
+    background: #95c120;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    border: none;
+}
+
+span#from-btn:hover {
+    background: #a2cd2e;
+}
+
+.para {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 20px;
+    color: #636363;
+}
+
+.fromheading {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+section.career-from {
+    padding-top: 50px;
+}
+
+section.carousel-slider {
+    width: 94vw;
+}
+
+.from-submit {
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+    background: #00c300;
+    /* background: red; */
+}
+
+.alert strong,
+.close {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 19px;
+}
+
+span.close:hover {
+    color: #000;
+}
+
+span.close {
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+div#succescontent {
+    display: flex;
+    padding: 250px;
+    justify-content: center;
+}
+
+div#succescontent h1 {
+    font-size: 50px;
+    color: #00c300;
+}
+
+#submitResult {
+    display: none;
+    /* transition: 3s ease; */
+    background: #fff;
+    box-shadow: 0px 0px 1px 0px #00c300;
 }
